@@ -1,0 +1,14 @@
+- title: Dulce Flowershop
+  subtitle: Flowershop website with cart built with Gatsby.js and snipcart.
+  link: https://github.com/misselliev/gatsby-flower-project
+  live: https://gatsby-flower-project.netlify.com/
+
+- title: Petrichor Blog
+  subtitle: Blog website with full user functions, including authentication. Built with Rails 5.
+  link: https://github.com/misselliev/petrichor-blog
+  live: https://warm-bayou-34500.herokuapp.com/articles
+
+- title: My bookshelf library
+  subtitle: Library web app to keep up with your bookshelf content.
+  link: https://github.com/misselliev/js-library
+  live: https://misselliev.github.io/react-CMS-bookstore/
