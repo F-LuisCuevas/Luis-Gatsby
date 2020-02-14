@@ -1,19 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
+import Intent from "./link"
+
 export default function Navbar() {
   return (
-    <div className="container my-3">
-      <ul className="nav justify-content-center">
+    <nav className="container my-3">
+      <ul className="nav justify-content-end">
         <li className=" mx-4">
-          <Link to="/">Home</Link>
+          <Intent to="/">About</Intent>
         </li>
         <li className=" mx-4">
-          <Link to="/about">About</Link>
-        </li>
-        <li className=" mx-4">
-          <Link to="/projects">Projects</Link>
+          <Intent to="/projects">Projects</Intent>
         </li>
       </ul>
-    </div>
+    </nav>
   )
 }

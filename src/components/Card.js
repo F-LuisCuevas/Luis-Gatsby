@@ -1,6 +1,6 @@
 import React from "react"
 
-function Card(props) {
+function card(props) {
   const { cardTitle, cardSubtitle, link, live } = props
   return (
     <div className="col-lg-4">
@@ -13,7 +13,7 @@ function Card(props) {
               Source code
             </a>
             <a href={live} className="card-link" hidden={live ? false : true}>
-              Live demo
+              Demo
             </a>
           </div>
         </div>
@@ -22,4 +22,4 @@ function Card(props) {
   )
 }
 
-export default Card
+export default card
