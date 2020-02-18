@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap");
-
 html {
   background-color: #282a36 !important;
   color: #fff !important;
@@ -32,6 +31,18 @@ a:hover {
   width: 85%;
 }
 
+.hello-img {
+  background: url('https://i.imgur.com/ezauAOS.png');
+  background: url('/public/undraw_popular_7nrh.svg');
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 6rem;
+}
+
 .social {
   display: flex;
   justify-content: center;
@@ -41,7 +52,6 @@ a:hover {
 
 .icon {
   height: 30px;
-
   color: #fff;
 }
 
@@ -79,29 +89,22 @@ a:hover {
   .display-3 {
     font-size: 3.4rem !important;
   }
-
   .code {
     font-size: 1.9rem !important;
   }
-
   .info {
     font-size: 1.3rem !important;
   }
-
-  .ml-5,
-  .mx-5 {
+  .ml-5, .mx-5 {
     margin-left: 1.2rem !important;
   }
-
   .footer {
     display: flex;
     margin-bottom: 10px;
   }
-
   .card p {
     font-size: 1.1rem !important;
   }
-
   .card a {
     font-size: 0.9em;
   }
