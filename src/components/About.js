@@ -5,6 +5,7 @@ import {
   FaGithub as Github,
   FaEnvelope as Mail,
   FaLinkedin as Linkedin,
+  FaFilePdf as Resume,
 } from "react-icons/fa"
 
 export default function About() {
@@ -18,8 +19,8 @@ export default function About() {
           </div>
           <div className="h1 code mt-4 mb-3" style={{ color: "#8589ef" }}>
             const eliVillalejos <span style={{ color: "#ff79c6" }}>= </span>
-            <span style={{ color: "white" }}>{"{"}</span>
           </div>
+          <div className="h1 code mt-2 mb-3">{"{"}</div>
           <div
             className="h4 mx-5 my-4 text-justify info"
             style={{ color: "#d3d3d3	" }}
@@ -31,14 +32,15 @@ export default function About() {
             <br />
             techStack:{" "}
             <span style={{ color: "#18cebb" }}>
-              [React, JS, RoR, Ruby, Redux],
+              [React, JS, RoR, Ruby, Redux, Gatsby, Vue, RSpec, Jest, Bootstrap,
+              Semantic UI],
             </span>
             <br />
             likes:{" "}
-            <span style={{ color: "#18cebb" }}>[Code, Dogs, Coffee]</span>
+            <span style={{ color: "#18cebb" }}>[Code, Chihuahuas, Coffee]</span>
             <br />
-            <div className="h1 code mt-2 mb-3">{"}"}</div>
           </div>
+          <div className="h1 code mt-2 mb-3">{"}"}</div>
         </div>
         <div className="col">
           <div className="hello-img"></div>
@@ -62,6 +64,12 @@ export default function About() {
           href="https://www.linkedin.com/in/ellievillalejos/"
         >
           <Linkedin />
+        </a>
+        <a
+          href="/public/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
+          download
+        >
+          <Resume />
         </a>
       </div>
     </div>

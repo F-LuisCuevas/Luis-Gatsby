@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap");
+
 html {
   background-color: #282a36 !important;
   color: #fff !important;
@@ -19,7 +20,7 @@ a {
 
 a:hover {
   text-decoration: none !important;
-  color: #4372ff !important;
+  color: white !important;
 }
 
 .code {
@@ -34,13 +35,16 @@ a:hover {
 .hello-img {
   background: url('https://i.imgur.com/ezauAOS.png');
   background: url('/public/undraw_popular_7nrh.svg');
+  background: url('/public/IMG_20200228_152045210.jpg');
+  background: url('https://i.imgur.com/orlH1FY.jpg');
   max-width: 100%;
   height: auto;
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-repeat: no-repeat;
-  background-size: contain;
-  margin-top: 6rem;
+  background-size: cover;
+  margin-top: 1rem;
+  border-radius: 1em;
 }
 
 .social {
@@ -85,26 +89,39 @@ a:hover {
   justify-content: space-between;
 }
 
+@media (max-width: 700px) {
+  .hello-img {
+    margin-top: 1em !important;
+  }
+}
+
 @media (max-width: 500px) {
   .display-3 {
     font-size: 3.4rem !important;
   }
+
   .code {
     font-size: 1.9rem !important;
   }
+
   .info {
     font-size: 1.3rem !important;
   }
-  .ml-5, .mx-5 {
+
+  .ml-5,
+  .mx-5 {
     margin-left: 1.2rem !important;
   }
+
   .footer {
     display: flex;
     margin-bottom: 10px;
   }
+
   .card p {
     font-size: 1.1rem !important;
   }
+
   .card a {
     font-size: 0.9em;
   }
