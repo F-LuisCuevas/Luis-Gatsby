@@ -21,6 +21,7 @@ function Projects({ data }) {
             <Card
               cardTitle={node.title}
               cardSubtitle={node.subtitle}
+              cardStack={node.stack}
               link={node.link}
               key={node.id}
               live={node.live}
@@ -41,6 +42,7 @@ export const query = graphql`
         node {
           title
           subtitle
+          stack
           link
           id
           live
