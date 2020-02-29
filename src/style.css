@@ -80,6 +80,10 @@ a:hover {
   color: #12c5f1 !important;
 }
 
+.card-title {
+  color: #8589ef !important;
+}
+
 .card:hover {
   transform: scale(1.04);
 }
