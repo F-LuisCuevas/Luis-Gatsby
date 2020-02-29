@@ -4,6 +4,7 @@ import Navbar from "../components/navbar"
 import { graphql } from "gatsby"
 import Card from "../components/card"
 import { Helmet } from "react-helmet"
+import Footer from "../components/footer"
 
 function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
@@ -29,6 +30,7 @@ function Projects({ data }) {
           )
         })}
       </div>
+      <Footer />
     </div>
   )
 }
