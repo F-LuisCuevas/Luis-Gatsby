@@ -67,7 +67,7 @@ a:hover {
 .card {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: 0.3s ease-in-out;
-  background-color: #324359 !important;
+  background-color: #424a55 !important;
 }
 
 .card p {
@@ -77,7 +77,7 @@ a:hover {
 
 .card a {
   font-size: 0.7em;
-  color: #8589ef !important;
+  color: #12c5f1 !important;
 }
 
 .card:hover {
