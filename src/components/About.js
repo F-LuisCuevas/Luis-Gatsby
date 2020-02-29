@@ -1,13 +1,5 @@
 import React from "react"
-
-import {
-  FaTwitter as Twitter,
-  FaGithub as Github,
-  FaEnvelope as Mail,
-  FaLinkedin as Linkedin,
-  FaFilePdf as Resume,
-} from "react-icons/fa"
-
+import Footer from "./footer"
 export default function About() {
   return (
     <div className="container">
@@ -46,32 +38,7 @@ export default function About() {
           <div className="hello-img"></div>
         </div>
       </div>
-      <div className="h1 mt-5 mb-5 footer">
-        <a className="mr-5 icon" href="https://twitter.com/miss_elliev">
-          <Twitter />
-        </a>
-        <a className="mr-5 icon" href="https://github.com/misselliev">
-          <Github />
-        </a>
-        <a
-          className="mr-5 icon"
-          href="mailto:elizabeth.villalejos@gmail.com?subject=Website%20Inquiry"
-        >
-          <Mail />
-        </a>
-        <a
-          className="mr-5 icon"
-          href="https://www.linkedin.com/in/ellievillalejos/"
-        >
-          <Linkedin />
-        </a>
-        <a
-          href="/public/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
-          download
-        >
-          <Resume />
-        </a>
-      </div>
+      <Footer />
     </div>
   )
 }
