@@ -10,7 +10,7 @@ function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
 
   return (
-    <div className="container-fluid">
+    <div className="container">
       <Navbar />
       <Helmet>
         <meta charSet="utf-8" />
