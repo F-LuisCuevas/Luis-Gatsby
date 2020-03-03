@@ -1,7 +1,7 @@
 import React from "react"
 import "../style.css"
 import Navbar from "../components/Navbar"
-import About from "../components/about"
+import About from "../components/About"
 import { Helmet } from "react-helmet"
 
 function index() {
