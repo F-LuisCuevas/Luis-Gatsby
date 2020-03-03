@@ -6,6 +6,7 @@ import {
   FaEnvelope as Mail,
   FaLinkedin as Linkedin,
   FaFilePdf as Resume,
+  FaMedium as Medium,
 } from "react-icons/fa"
 
 export default function Footer() {
@@ -28,6 +29,9 @@ export default function Footer() {
         href="https://www.linkedin.com/in/ellievillalejos/"
       >
         <Linkedin />
+      </a>
+      <a className="mr-5 icon" href="https://medium.com/@elizabeth.villalejos">
+        <Medium />
       </a>
       <a
         href="/public/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
