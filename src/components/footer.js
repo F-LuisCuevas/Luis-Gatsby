@@ -34,7 +34,7 @@ export default function Footer() {
         <Medium />
       </a>
       <a
-        href="/public/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
+        href="/src/files/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
         download
       >
         <Resume />
