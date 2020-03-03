@@ -33,12 +33,8 @@ a:hover {
 }
 
 .hello-img {
-  background: url('https://i.imgur.com/ezauAOS.png');
-  background: url('/public/undraw_popular_7nrh.svg');
-  background: url('/public/IMG_20200228_152045210.jpg');
-  background: url('https://i.imgur.com/orlH1FY.jpg');
+  background: url('https://i.imgur.com/8hFGS8I.jpg');
   max-width: 100%;
-  height: auto;
   width: 100%;
   height: 500px;
   background-repeat: no-repeat;

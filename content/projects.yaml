@@ -1,4 +1,4 @@
-- title: Dulce Flowershop
+- title: Dulce Flowers
   subtitle: Flowershop website with shopping cart.
   stack: Built with JavaScript, Gatsby, SnipCart.
   link: https://github.com/misselliev/gatsby-flower-project
@@ -11,7 +11,7 @@
   live: https://warm-bayou-34500.herokuapp.com/articles
 
 - title: Dulce calendar
-  subtitle: Web app to help you built a conference schedule.
+  subtitle: App to organize conference schedules.
   stack: Built with React, Redux, Semantic UI.
   link: https://github.com/misselliev/dulce-calendar-redux
   live: https://intense-garden-00658.herokuapp.com/
@@ -22,9 +22,9 @@
   link: https://github.com/misselliev/dulce-flashcards
   live: https://dulce-flashcards.herokuapp.com/
 
-- title: Getting things done
+- title: Get things done
   subtitle: To-do web app, Trello style.
-  stack: Built with JavaScript, Semantic UI, Node.JS
+  stack: Built with JavaScript, Semantic UI.
   link: https://github.com/stiakov/getting_things_done_app
   live: http://stiakov.github.io/getting_things_done_app/
 
