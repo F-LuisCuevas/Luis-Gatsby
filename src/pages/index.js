@@ -1,21 +1,24 @@
 import React from "react"
-import { Link } from "gatsby"
+import "../style.css"
+import Navbar from "../components/navbar"
+import About from "../components/about"
+import { Helmet } from "react-helmet"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+function index() {
+  return (
+    <div>
+      <Navbar />
+      <About />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title> Home | Eli Villalejos </title>
+        <meta
+          name="google-site-verification"
+          content="H_T5IHaO3wq5Bi1lvXlgJq105uGg7_JjTsxkDgNKnCw"
+        />
+      </Helmet>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+  )
+}
 
-export default IndexPage
+export default index
