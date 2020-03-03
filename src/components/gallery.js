@@ -1,8 +1,8 @@
 import React from "react"
 import "../style.css"
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import { graphql } from "gatsby"
-import Card from "../components/card"
+import Card from "../components/Card"
 import { Helmet } from "react-helmet"
 
 const Gallery = ({ data }) => {

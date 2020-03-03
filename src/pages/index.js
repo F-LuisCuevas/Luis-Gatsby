@@ -1,6 +1,6 @@
 import React from "react"
 import "../style.css"
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import About from "../components/about"
 import { Helmet } from "react-helmet"
 
