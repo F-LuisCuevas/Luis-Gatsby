@@ -34,8 +34,9 @@ export default function Footer() {
         <Medium />
       </a>
       <a
-        href="/src/files/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
-        download
+        href="https://drive.google.com/file/d/1zyF4VMG68IfwCO4SgGx-6uIKn4JZ3FNI/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <Resume />
       </a>
