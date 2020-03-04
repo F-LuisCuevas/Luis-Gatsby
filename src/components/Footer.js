@@ -7,15 +7,26 @@ import {
   FaLinkedin as Linkedin,
   FaFilePdf as Resume,
   FaMedium as Medium,
+  FaQuoteRight as DevTo,
 } from "react-icons/fa"
 
 export default function Footer() {
   return (
     <div className="h1 mt-5 mb-5 footer">
-      <a className="mr-5 icon" href="https://twitter.com/miss_elliev">
+      <a
+        className="mr-5 icon"
+        href="https://twitter.com/miss_elliev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Twitter />
       </a>
-      <a className="mr-5 icon" href="https://github.com/misselliev">
+      <a
+        className="mr-5 icon"
+        href="https://github.com/misselliev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Github />
       </a>
       <a
@@ -27,15 +38,31 @@ export default function Footer() {
       <a
         className="mr-5 icon"
         href="https://www.linkedin.com/in/ellievillalejos/"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <Linkedin />
       </a>
-      <a className="mr-5 icon" href="https://medium.com/@elizabeth.villalejos">
+      <a
+        className="mr-5 icon"
+        href="https://medium.com/@elizabeth.villalejos"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Medium />
       </a>
       <a
-        href="/src/files/Elizabeth_Villalejos_Resume_27-02-2020-11-58-55.pdf"
-        download
+        className="mr-5 icon"
+        href="https://dev.to/misselliev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <DevTo />
+      </a>
+      <a
+        href="https://drive.google.com/file/d/1zyF4VMG68IfwCO4SgGx-6uIKn4JZ3FNI/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <Resume />
       </a>

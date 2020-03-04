@@ -21,6 +21,7 @@ function Projects({ data }) {
           return (
             <Card
               cardTitle={node.title}
+              cardImg={node.image}
               cardSubtitle={node.subtitle}
               cardStack={node.stack}
               link={node.link}
@@ -43,6 +44,7 @@ export const query = graphql`
       edges {
         node {
           title
+          image
           subtitle
           stack
           link
