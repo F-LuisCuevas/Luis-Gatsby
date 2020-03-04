@@ -11,9 +11,6 @@ export default function Navbar() {
         <li className=" mx-4">
           <Intent to="/projects">Projects</Intent>
         </li>
-        <li className=" mx-4">
-          <Intent to="/blog">Blog</Intent>
-        </li>
       </ul>
     </nav>
   )
