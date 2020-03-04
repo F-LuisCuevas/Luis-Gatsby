@@ -1,34 +1,40 @@
 - title: Dulce Flowers
+  image: "https://i.imgur.com/XeKIgb8.png"
   subtitle: Flowershop website with shopping cart.
   stack: Built with JavaScript, Gatsby, SnipCart.
   link: https://github.com/misselliev/gatsby-flower-project
   live: https://gatsby-flower-project.netlify.com/
 
 - title: Petrichor Blog
+  image: "https://i.imgur.com/jqhnVfu.png"
   subtitle: Blog website with full user functions.
   stack: Built with Rails 5, RSpec, Ruby 2.6.
   link: https://github.com/misselliev/petrichor-blog
   live: https://warm-bayou-34500.herokuapp.com/articles
 
 - title: Dulce calendar
+  image: "https://i.imgur.com/Uii4jW2.png"
   subtitle: App to organize conference schedules.
   stack: Built with React, Redux, Semantic UI.
   link: https://github.com/misselliev/dulce-calendar-redux
   live: https://intense-garden-00658.herokuapp.com/
 
 - title: Dulce Flashcards
+  image: "https://i.imgur.com/OcGLEba.png"
   subtitle: Web app to study React concepts.
   stack: Built with Vue.JS, JavaScript.
   link: https://github.com/misselliev/dulce-flashcards
   live: https://dulce-flashcards.herokuapp.com/
 
 - title: Get things done
+  image: "https://i.imgur.com/Hivf7sS.png"
   subtitle: To-do web app, Trello style.
   stack: Built with JavaScript, Semantic UI.
   link: https://github.com/stiakov/getting_things_done_app
   live: http://stiakov.github.io/getting_things_done_app/
 
 - title: Ruby Portfolio
+  image: "https://i.imgur.com/6wODBS4.png"
   subtitle: Web app to showcase projects.
   stack: Built with Rails 5, Ruby
   link: https://github.com/misselliev/ruby-portfolio
