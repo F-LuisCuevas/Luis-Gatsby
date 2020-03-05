@@ -11,10 +11,21 @@ function card(props) {
           <p className="card-text">{cardSubtitle}</p>
           <p className="card-text">{cardStack}</p>
           <div className="links">
-            <a href={link} className="card-link">
+            <a
+              href={link}
+              className="card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Source code
             </a>
-            <a href={live} className="card-link" hidden={live ? false : true}>
+            <a
+              href={live}
+              className="card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              hidden={live ? false : true}
+            >
               Demo
             </a>
           </div>

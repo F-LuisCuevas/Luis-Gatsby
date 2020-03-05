@@ -60,6 +60,7 @@ a:hover {
 .icon {
   height: 30px;
   color: #fff;
+  margin-bottom: 0.8em !important;
 }
 
 .icon:hover {
@@ -117,7 +118,10 @@ a:hover {
   }
   .footer {
     display: flex;
-    margin-bottom: 10px;
+    justify-content: space-evenly;
+    margin-top: 4rem !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.4em;
   }
   .card p {
     font-size: 1.1rem !important;
