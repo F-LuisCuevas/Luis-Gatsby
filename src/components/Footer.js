@@ -60,7 +60,7 @@ export default function Footer() {
         <DevTo />
       </a>
       <a
-        href="https://drive.google.com/file/d/1zyF4VMG68IfwCO4SgGx-6uIKn4JZ3FNI/view?usp=sharing"
+        href=" https://drive.google.com/file/d/1LJyZvhv_rW-BsAQCsIcp2Tgvt4MFNMO0/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
