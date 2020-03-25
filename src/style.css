@@ -15,10 +15,10 @@ body {
 
 a {
   color: #ff79c6 !important;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: none !important;
   color: white !important;
 }
 
