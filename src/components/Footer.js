@@ -15,14 +15,6 @@ export default function Footer() {
     <div className="h1 mt-5 mb-5 footer">
       <a
         className="mr-5 icon"
-        href="https://twitter.com/miss_elliev"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Twitter />
-      </a>
-      <a
-        className="mr-5 icon"
         href="https://github.com/misselliev"
         target="_blank"
         rel="noopener noreferrer"
@@ -45,11 +37,11 @@ export default function Footer() {
       </a>
       <a
         className="mr-5 icon"
-        href="https://medium.com/@elizabeth.villalejos"
+        href="https://twitter.com/miss_elliev"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Medium />
+        <Twitter />
       </a>
       <a
         className="mr-5 icon"
@@ -60,11 +52,20 @@ export default function Footer() {
         <DevTo />
       </a>
       <a
+        className="mr-5 icon"
         href=" https://drive.google.com/file/d/1LJyZvhv_rW-BsAQCsIcp2Tgvt4MFNMO0/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Resume />
+      </a>
+      <a
+        className="mr-5 icon"
+        href="https://medium.com/@elizabeth.villalejos"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Medium />
       </a>
     </div>
   )
