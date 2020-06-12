@@ -118,10 +118,10 @@ a:hover {
   }
   .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 4rem !important;
     margin-bottom: 1rem !important;
-    font-size: 1.4em;
+    font-size: 0.8em;
   }
   .card p {
     font-size: 1.1rem !important;
