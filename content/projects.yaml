@@ -5,12 +5,12 @@
   link: https://github.com/misselliev/gatsby-flower-project
   live: https://gatsby-flower-project.netlify.com/
 
-- title: Petrichor Blog
-  image: "https://i.imgur.com/jqhnVfu.png"
-  subtitle: Blog website with full user functions.
-  stack: Built with Rails 5, RSpec, Ruby 2.6.
-  link: https://github.com/misselliev/petrichor-blog
-  live: https://warm-bayou-34500.herokuapp.com/articles
+- title: Dulce Chef
+  image: "https://i.imgur.com/X254cpR.png"
+  subtitle: App you get out of a cooking rut.
+  stack: Built with React, Semantic UI
+  link: https://github.com/misselliev/dulce-chef
+  live: https://dulce-chef.netlify.app/
 
 - title: Dulce calendar
   image: "https://i.imgur.com/Uii4jW2.png"
@@ -39,3 +39,45 @@
   stack: Built with Rails 5, Ruby
   link: https://github.com/misselliev/ruby-portfolio
   live: https://misselliev-portfolio.herokuapp.com/
+
+- title: Petrichor Blog
+  image: "https://i.imgur.com/jqhnVfu.png"
+  subtitle: Blog website with full user functions.
+  stack: Built with Rails 5, RSpec, Ruby 2.6.
+  link: https://github.com/misselliev/petrichor-blog
+  live: https://warm-bayou-34500.herokuapp.com/articles
+
+- title: Button generator
+  image: "https://i.imgur.com/MhTEzrX.png"
+  subtitle: Style easier with a button generator.
+  stack: Built with JavaScript
+  link: https://github.com/misselliev/button-generator
+  live: https://misselliev.github.io/button-generator/
+
+- title: Dulce NASA
+  image: "https://i.imgur.com/ckv7Um0.png"
+  subtitle: Showcasing NASA's Picture of the Day.
+  stack: Built with React, Redux, API
+  link: https://github.com/misselliev/dulce-NASA-daily
+  live: https://dulce-nasa-daily.netlify.app/
+
+- title: Number Trivia
+  image: "https://i.imgur.com/EOeaM4F.png"
+  subtitle: Get a number trivia fact from a randomized set of numbers.
+  stack: Built with Vue JS, API
+  link: https://github.com/misselliev/number-trivia
+  live: https://number-trivia-vue.herokuapp.com/
+
+- title: Dulce's Stocks
+  image: "https://i.imgur.com/lpWxczw.png"
+  subtitle: Helping you keep a track of your woofstocks.
+  stack: Built with Ruby on Rails, Bootstrap
+  link: https://github.com/misselliev/stock-tracker
+  live: https://dulce-stock-tracker.herokuapp.com/
+
+- title: Tic Tac Toe War
+  image: "https://i.imgur.com/44QKG2m.png"
+  subtitle: Building a tic tac toe you can play in your browser.
+  stack: Built with JavaScript, Semantic UI
+  link: https://github.com/misselliev/tic-tac-js
+  live: https://misselliev.github.io/tic-tac-js/

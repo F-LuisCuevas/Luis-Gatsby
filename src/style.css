@@ -35,7 +35,7 @@ a:hover {
   background: url('https://i.imgur.com/8hFGS8I.jpg');
   max-width: 100%;
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 1rem;
@@ -81,7 +81,7 @@ a:hover {
 
 .card a {
   font-size: 0.7em;
-  color: #12c5f1 !important;
+  color: #18cebb !important;
 }
 
 .card-title {

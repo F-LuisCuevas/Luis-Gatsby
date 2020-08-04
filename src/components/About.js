@@ -7,7 +7,12 @@ export default function About() {
       <div className="row mb-n4">
         <div className="col-md">
           <div className="display-3">
-            <span style={{ color: "white" }}>Hi!</span> <br />
+            <span style={{ color: "white" }}>Hi!</span>
+            <img
+              src="https://media.giphy.com/media/26Fxy3Iz1ari8oytO/giphy.gif"
+              width="90"
+              style={{ marginBottom: ".3em" }}
+            ></img>
           </div>
           <div className="h1 code mt-4 mb-3" style={{ color: "#8589ef" }}>
             const eliVillalejos <span style={{ color: "#ff79c6" }}>= </span>
@@ -18,18 +23,31 @@ export default function About() {
             style={{ color: "#d3d3d3	" }}
           >
             occupation:{" "}
-            <span style={{ color: "#18cebb" }}>
-              "Full-stack web developer",
+            <span style={{ color: "#AA7DCE" }}>
+              "Remote Full-stack web developer",
             </span>
             <br />
             techStack:{" "}
             <span style={{ color: "#18cebb" }}>
-              [React, JS, RoR, Ruby, Redux, Gatsby, Vue, RSpec, Jest, Bootstrap,
+              [JavaScript, React, Redux, RoR, Ruby, Gatsby, RSpec, Jest, Bootstrap,
               Semantic UI],
             </span>
             <br />
             likes:{" "}
-            <span style={{ color: "#18cebb" }}>[Code, Chihuahuas, Coffee]</span>
+            <span style={{ color: "#AA7DCE" }}>
+              [Code, Chihuahuas, Coffee],
+            </span>
+            <br />
+            challenge:{" "}
+            <span style={{ color: "#18cebb" }}>
+              "I am learning typescript",
+            </span>
+            <br />
+            funFact:{" "}
+            <span style={{ color: "#AA7DCE" }}>
+              ['I have 1.5 years of remote work experience with devs from all
+              over the world']
+            </span>
             <br />
           </div>
           <div className="h1 code mt-2 mb-3">{"}"}</div>
