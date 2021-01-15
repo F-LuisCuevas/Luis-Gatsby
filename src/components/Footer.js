@@ -53,7 +53,7 @@ export default function Footer() {
       </a>
       <a
         className="mr-5 icon"
-        href=" https://drive.google.com/file/d/1LJyZvhv_rW-BsAQCsIcp2Tgvt4MFNMO0/view?usp=sharing"
+        href="https://drive.google.com/file/d/1A7sAi66y0fh40DmpmR9HjHfmvsHGqQGr/view"
         target="_blank"
         rel="noopener noreferrer"
       >
