@@ -24,13 +24,13 @@ export default function About() {
           >
             occupation:{" "}
             <span style={{ color: "#AA7DCE" }}>
-              "Remote Full-stack web developer",
+              "Remote Full-stack web developer" || "Front-end developer",
             </span>
             <br />
             techStack:{" "}
             <span style={{ color: "#18cebb" }}>
-              [JavaScript, React, Redux, RoR, Ruby, Gatsby, RSpec, Jest, Bootstrap,
-              Semantic UI],
+              [JavaScript, React, Redux, RoR, Ruby, RSpec, Material UI, Bootstrap, Tailwind
+              Semantic],
             </span>
             <br />
             likes:{" "}
@@ -40,7 +40,7 @@ export default function About() {
             <br />
             challenge:{" "}
             <span style={{ color: "#18cebb" }}>
-              "I am learning typescript",
+              "I am learning Vue",
             </span>
             <br />
             funFact:{" "}
