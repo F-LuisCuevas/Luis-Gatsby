@@ -45,7 +45,7 @@ export default function About() {
             <br />
             funFact:{" "}
             <span style={{ color: "#AA7DCE" }}>
-              ['I have 1.5 years of remote work experience with devs from all
+              ['I have 2 years of remote work experience with devs from all
               over the world']
             </span>
             <br />
