@@ -24,7 +24,7 @@ export default function About() {
           >
             occupation:{" "}
             <span style={{ color: "#AA7DCE" }}>
-              "Remote Full-stack web developer" || "Front-end developer",
+              "Front-end developer" || "Full-stack web developer",
             </span>
             <br />
             techStack:{" "}
@@ -35,17 +35,17 @@ export default function About() {
             <br />
             likes:{" "}
             <span style={{ color: "#AA7DCE" }}>
-              [Code, Chihuahuas, Coffee],
+              [Code, Chihuahuas, Coffee, The 1975],
             </span>
             <br />
             challenge:{" "}
             <span style={{ color: "#18cebb" }}>
-              "I am learning Vue",
+              "I am honing my React skills and picking up Vue",
             </span>
             <br />
             funFact:{" "}
             <span style={{ color: "#AA7DCE" }}>
-              ['I have 2 years of remote work experience with devs from all
+              ['I have 2+ years of remote work experience with devs from all
               over the world']
             </span>
             <br />
